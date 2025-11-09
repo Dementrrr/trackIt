@@ -1,0 +1,39 @@
+$black: #111;
+$indigo: #6633FF;
+$light: #DDD0FF;
+$transition: .2s;
+
+.header {
+    height: 3rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 1rem;
+    gap: 1rem;
+
+    &__logo,  &__profile{
+        height: 3rem;
+    }
+
+
+}
+
+.logo {
+    &__img {
+        height: 100%;
+    }
+}
+
+.profile {
+    height: 3rem;
+    border: 1px solid $light;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: $transition;
+    &:hover {
+        border: 1px solid $indigo;
+    }
+
+    &__img {
+        height: 100%;
+    }
+}

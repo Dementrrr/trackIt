@@ -1,10 +1,10 @@
-import './App.scss'
+import Header from "./components/Header";
+import './scss/App.scss';
 
 export default function App() {
-
   return (
     <>
-      Hi
+      <Header />
     </>
-  )
+  );
 }
